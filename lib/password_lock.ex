@@ -74,9 +74,7 @@ defmodule PasswordLock do
   end
 
   defp write_to_logfile(text) do
-    {:ok, pid} =
-      PasswordLogger.start_link()
-      |> IO.inspect()
+    {:ok, pid} = PasswordLogger.start_link()
 
     PasswordLogger.log_incorrect(pid, "wrong_password: #{text}")
   end
