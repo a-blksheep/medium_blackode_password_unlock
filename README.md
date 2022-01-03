@@ -1,21 +1,5 @@
 # PasswordLock
 
-**TODO: Add description**
+Code repository for following with the following article on Medium, [Elixir Mastering — Live Example of GenServer and GenServer Testing](https://medium.com/blackode/live-example-of-genserver-and-genserver-testing-ed55c8eb4f76 "Elixir Mastering — Live Example of GenServer and GenServer Testing").
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `password_lock` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:password_lock, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/password_lock>.
-
+It's a relatively straightforward introduction to Elixir GenServers and provides a simple introduction to both sync and asyn calls as well as the division between client and server operations.
